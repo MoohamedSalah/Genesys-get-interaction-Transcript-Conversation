@@ -73,10 +73,12 @@ class Program
             }
 
             Console.WriteLine("✅ All done.");
+            Console.ReadLine();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"❌ Fatal error: {ex.Message}");
+            Console.ReadLine();
         }
     }
 
